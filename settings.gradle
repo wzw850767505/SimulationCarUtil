@@ -1,2 +1,3 @@
 rootProject.name='SimulationCarUtil'
 include ':app'
+include ':simcarutillib'
