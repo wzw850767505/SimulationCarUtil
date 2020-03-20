@@ -25,11 +25,9 @@ public class FileUtil {
             re=baos.toByteArray();
 
         } catch (FileNotFoundException e) {
-            Logger.e("FileNotFoundException");
             e.printStackTrace();
 
         } catch (IOException e) {
-            Logger.e("IOException");
             e.printStackTrace();
 
         } finally {
